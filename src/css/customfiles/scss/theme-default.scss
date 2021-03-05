@@ -17,6 +17,7 @@ a,
 .button {
 @include transition(.3s);
 }
+/* FIX issues with links color
 a:focus,
 .button:focus,button:focus {
 	text-decoration: none;
@@ -28,16 +29,19 @@ a:focus{
 }
 a:focus,
 a:hover,
+*/
 .portfolio-cat a:hover,
 .footer -menu li a:hover {
 	text-decoration: none;
 	color: #1F1F1F;
 }
+/*  FIX issues with links color
 a,
 button {
 	color: #1F1F1F;
 	outline: medium none;
 }
+*/
 h1,h2,h3,h4,h5{
 	font-family: $font1;
 	color: #1F1F1F;
